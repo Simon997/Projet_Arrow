@@ -1,14 +1,15 @@
+@import '//fonts.googleapis.com/css?family=Lato:400,400italic|Arvo:700,400,400italic';
+
 body{
-	background-color: black;
+    color: #4E443C;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.75);
+    background: #64686C;
 	font-size: 14px;
 	color: white;
-	/*background: url('../image_arrow/fond') center;
-    background-attachment: fixed;*/
     background-size: cover;
     margin-bottom: 0px;
     height: 100%;
     width: 100%;
-
 }
 div{
 	position: relative;
@@ -61,6 +62,7 @@ div{
     position: relative;
     top: 40px;
     height: 500px;
+    left: -8px;
 }
 #header h1{
     font-family: Impact, Charcoal, sans-serif;
@@ -729,7 +731,9 @@ h1{
     background-color: #64686C;
     left: -8px;
     height: 700px;
-    width: 1000px;
+    max-width: 800px;
+    padding: 0 20px 40px 20px;
+    margin: auto;
     top: 40px;
 }
 .wrapper h4{
